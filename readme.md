@@ -1,0 +1,42 @@
+# meta-string [![Build Status](https://travis-ci.org/bendrucker/meta-string.svg?branch=master)](https://travis-ci.org/bendrucker/meta-string)
+
+> Convert values into `<meta>` content strings
+
+
+## Install
+
+```
+$ npm install --save meta-string
+```
+
+
+## Usage
+
+```js
+var metaString = require('meta-string')
+
+metaString('input')
+//=> input
+
+metaString('a', 'b')
+//=> a, b
+
+metaString({a: 'b', c: 'd'})
+//=> a=b, c=d
+```
+
+## API
+
+#### `metaString(value)` -> `string`
+
+##### value
+
+*Required*  
+Type: `string` / `number` / `array` / `object`
+
+A value to transform into the format expected by a `<meta>` tag.
+
+
+## License
+
+MIT © [Ben Drucker](http://bendrucker.me)
