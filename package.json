@@ -25,5 +25,8 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "camel-2-dash": "~0.1.0"
+  }
 }

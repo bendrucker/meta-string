@@ -23,6 +23,9 @@ metaString('a', 'b')
 
 metaString({a: 'b', c: 'd'})
 //=> a=b, c=d
+
+metaString({fooBar: 'baz'})
+//=> foo-bar=baz
 ```
 
 ## API
@@ -34,7 +37,7 @@ metaString({a: 'b', c: 'd'})
 *Required*  
 Type: `string` / `number` / `array` / `object`
 
-A value to transform into the format expected by a `<meta>` tag.
+A value to transform into the format expected by a `<meta>` tag. Keys will be transformed from camel case to dash-delimeted where applicable.
 
 
 ## License
