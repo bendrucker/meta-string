@@ -1,4 +1,4 @@
-# meta-string [![Build Status](https://travis-ci.org/bendrucker/meta-string.svg?branch=master)](https://travis-ci.org/bendrucker/meta-string)
+# meta-string [![Build Status](https://travis-ci.org/bendrucker/meta-string.svg?branch=master)](https://travis-ci.org/bendrucker/meta-string) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/meta-string.svg)](https://greenkeeper.io/)
 
 > Convert values into `<meta>` content strings
 
